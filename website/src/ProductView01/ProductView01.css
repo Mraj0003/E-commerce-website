@@ -1,0 +1,43 @@
+.ProductView01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 150px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.ProductView01_Price {
+  margin-top: 5px;
+}
+.ProductView01_Info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+.ProductView01 > button {
+  background: orange;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: red;
+  color: black;
+}
+.ProductView01_Info img {
+}
+
+@media (max-width: 768px) {
+  .ProductView01 {
+    flex-direction: column;
+  }
+
+  .ProductView01 h5 {
+    font-size: 1.2rem;
+  }
+
+  .ProductView01_Price {
+    font-size: 0.9rem;
+  }
+}

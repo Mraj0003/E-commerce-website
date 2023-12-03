@@ -1,0 +1,10 @@
+.Checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.Checkout_ad {
+  width: 100%;
+  margin-bottom: 10px;
+}

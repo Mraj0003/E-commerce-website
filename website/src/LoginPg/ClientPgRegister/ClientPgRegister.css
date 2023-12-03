@@ -1,0 +1,8 @@
+#ClientPgRegister span {
+  color: red;
+}
+#ClientPgRegister .LoginPg_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

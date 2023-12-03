@@ -1,0 +1,23 @@
+.OfferLatestProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 600px;
+  min-width: 200px;
+  background-color: white;
+  z-index: 1;
+}
+
+.OfferLatestProduct > img {
+  position: relative;
+  top: 15px;
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
